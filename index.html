@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин Питбайков</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ПИТБАЙК<span style="color:white">К</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#catalog">Каталог</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#prices">Цены</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </nav>
+    <header class="hero">
+        <div class="hero-content reveal">
+             <h1>Магазин лучше питбайк</h1>
+            <p>Лучшие питбайки 2026 года для детей и взрослых</p>
+            <li><a href="#aloo" class="btn btn">Выбрать байк</a></li>
+        </div>
+    </header>
+    <section id="about" class="reveal">
+        <h2 class="section-title">О Нашем Магазине</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>Лидеры рынка с 2020 года</h3>
+                <p>Мы не просто продаем мотоциклы, мы дарим эмоции. MotoX — это официальный дилер ведущих брендов. Собственный сервис, склад запчастей и команда энтузиастов.</p>
+                <br>
+                <p>Каждый байк проходит предпродажную подготовку (ППП) бесплатно.</p>
+            </div>
+            <div class="about-img">
+                <img src="images1.jpg" alt="питбайком">
+            </div>
+        </div>
+    </section>
+    <section class="features reveal">
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-shipping-fast"></i>
+                <h4>Быстрая Доставка</h4>
+                <p>При оформлении доставки стоит учитывать, что сроки и условия могут варьироваться в зависимости от направления, веса и габаритов отправления.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-tools"></i>
+                <h4>Гарантия 1 год</h4>
+                <p>Гарантия на двигатель и раму может варьироваться в зависимости от производителя, модели автомобиля, условий обслуживания и других факторов.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-wallet"></i>
+                <h4>Рассрочка 0%</h4>
+                <p>0 — нет первоначального взноса;
+                 нет переплаты, то есть услуга беспроцентная;
+                24 — период, в течение которого нужно погасить долг.
+            </p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-wallet"></i>
+                <h4>Доставка «день в день»</h4>
+                <p>При оформлении заказа можно выбрать интервал времени доставки в пределах МКАД.</p>
+            </div>
+        </div>
+    </section>
+    <section    id="aloo" id="catalog"class="reveal">
+        <h2 class="section-title">Популярные Модели</h2>
+        <div class="catalog-grid">
+            <div class="product-card">
+                <img src="image12.jpg" alt="Pitbike 125">
+                <div class="p-info">
+                    <h3>XB-125 Street</h3>
+                    <p class="p-price">89 900 ₽</p>
+                    <button class="btn open-modal-btn" data-target="orderModal">Купить</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="images13.jpg" alt="Pitbike 140">
+                <div class="p-info">
+                    <h3>GR-140 Enduro</h3>
+                    <p class="p-price">115 000 ₽</p>
+                    <button class="btn open-modal-btn" data-target="orderModal">Купить</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image.jpg" alt="Pitbike 160">
+                <div class="p-info">
+                    <h3>MX-160 Race</h3>
+                    <p class="p-price">145 000 ₽</p>
+                    <button class="btn open-modal-btn" data-target="orderModal">Купить</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="wd.jpg" alt="Pitbike 160">
+                <div class="p-info">
+                    <h3>BSE T9 Red Arrow</h3>
+                    <p class="p-price">414 490 ₽</p>
+                    <button class="btn open-modal-btn" data-target="orderModal">Купить</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="wuadisa.jpg" alt="Pitbike 160">
+                <div class="p-info">
+                    <h3>BSE TS 300R 2Т</h3>
+                    <p class="p-price">479 990 ₽</p>
+                    <button class="btn open-modal-btn" data-target="orderModal">Купить</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="inawd.jpg" alt="Pitbike 160">
+                <div class="p-info">
+                    <h3>K8R NB300</h3>
+                    <p class="p-price">240 500 ₽</p>
+                    <button class="btn open-modal-btn" data-target="orderModal">Купить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section reveal">
+        <h2 class="section-title">Фотогалерея</h2>
+        <div class="slider-container">
+            <button class="slider-btn prev-btn">&#10094;</button>
+            <div class="slider-track">
+                <div class="slide"><img src="images1.jpg" alt="Race 1"></div>
+                <div class="slide"><img src="images2.jpg" alt="Race 2"></div>
+                <div class="slide"><img src="images3.png" alt="Race 3"></div>
+                <div class="slide"><img src="images4.webp" alt="Race 4"></div>
+                <div class="slide"><img src="images5.jpg" alt="Race 5"></div>
+            </div>
+            <button class="slider-btn next-btn">&#10095;</button>
+        </div>
+    </section>
+    <section class="video-section reveal">
+        <h2 class="section-title">В Действии</h2>
+        <div class="video-wrapper">
+            <iframe src="СРАВНЕНИЕ ЛИНЕЙКИ ПИТБАЙКОВ KAYO  Роллинг Мото_720p.mp4" title="Video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="reveal">
+        <h2 class="section-title">Наша Команда</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="Алексей.jpg" alt="Boss">
+                <h4>Алексей</h4>
+                <p>Главный механик</p>
+            </div>
+            <div class="team-member">
+                <img src="Мария.jpg" alt="Manager">
+                <h4>Мария</h4>
+                <p>Менеджер доставка</p>
+            </div>
+            <div class="team-member">
+                <img src="Лера.jpg" alt="Manager">
+                <h4>Лера</h4>
+                <p>Менеджер продаж</p>
+            </div>
+            <div class="team-member">
+                <img src="Алёна.webp" alt="Manager">
+                <h4>Алёна</h4>
+                <p>Помочь чат</p>
+            </div>
+            <div class="team-member">
+                <img src="Василий.webp" alt="Manager">
+                <h4>Василий</h4>
+                <p>Ремонт</p>
+            </div>
+            <div class="team-member">
+                <img src="Соня.jpg" alt="Manager">
+                <h4>Соня</h4>
+                <p>Вопрос</p>
+            </div>
+        </div>
+    </section>
+    <section id="prices" class="prices reveal">
+        <h2 class="section-title">Сервисные Паки</h2>
+        <div class="price-cards">
+           <div class="price-card featured">
+                <h3>Базовый</h3>
+                <div class="price-amount">5 000 ₽</div>
+                <p>Настройка КШМ</p>
+                <p>Замена масла</p>
+                <p>Смазка цепи</p>
+                <br>
+                <button class="btn open-modal-btn" data-target="orderModal">Заказать</button>
+            </div>
+            <div class="price-card featured">
+                <h3>Шлем</h3>
+                <div class="price-amount">3 000 ₽</div>
+                <p>Защита</p>
+                <p>Очки надо купить</p>
+                <br>
+                <button class="btn open-modal-btn" data-target="orderModal">Заказать</button>
+            </div>
+            <div class="price-card featured">
+                <h3>Очки</h3>
+                <div class="price-amount">4 000 ₽</div>
+                <p>Шлем надевает очки</p>
+                <p>Защита</p>
+                <p>Видно на улице</p>
+                <br>
+                <button class="btn open-modal-btn" data-target="orderModal">Заказать</button>
+            </div>
+            <div class="price-card featured">
+                <h3>Перчатка</h3>
+                <div class="price-amount">300 ₽</div>
+                <p>Ударь есть</p>
+                <p>Рука защита</p>
+                <p>Не было холодно</p>
+                <br>
+                <button class="btn open-modal-btn" data-target="orderModal">Заказать</button>
+            </div>
+            <div class="price-card featured">
+                <h3>ПРО ФИ</h3>
+                <div class="price-amount">12 000 ₽</div>
+                <p>Полная переборка</p>
+                <p>Настройка подвеса</p>
+                <p>Шиномонтаж</p>
+                <br>
+                <button class="btn open-modal-btn" data-target="orderModal">Заказать</button>
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="contact-section reveal">
+        <h2 class="section-title">Связаться с Нами</h2>
+        <div class="contact-container">
+            <div class="form-box">
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Ваше Имя" required>
+                    <span class="error-msg">Введите имя (минимум 2 буквы)</span>
+                    
+                    <input type="tel" id="phone" placeholder="Телефон (+7...)" required>
+                    <span class="error-msg">Некорректный номер телефона</span>
+                    
+                    <input type="email" id="email" placeholder="Email" required>
+                    <span class="error-msg">Введите корректный email</span>
+                    
+                    <textarea rows="4" placeholder="Сообщение"></textarea>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </div>
+            <div class="map-box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.580665326249!2d37.6173!3d55.7558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQ1JzIwLjkiTiAzN8KwMzcnMDIuMyJF!5e0!3m2!1sru!2sru!4v1620000000000!5m2!1sru!2sru" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-socials">
+            <a href="#"><i class="fab fa-vk"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <ul class="nav-links" style="justify-content: center; margin-bottom: 20px;">
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#catalog">Каталог</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+        <p class="copyright">Все права защищены.</p>
+    </footer>
+
+    <div class="modal-overlay" id="orderModal">
+        <div class="modal-window">
+            <span class="close-modal">&times;</span>
+            <h3 style="text-align: center; margin-bottom: 20px; color: var(--primary-color);">Оформление заявки</h3>
+            <p style="text-align: center; margin-bottom: 20px;">Оставьте номер, и менеджер перезвонит через 5 минут.</p>
+            <form>
+                <input type="text" placeholder="Имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <button class="btn" style="width: 100%;">Жду звонка</button>
+            </form>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
